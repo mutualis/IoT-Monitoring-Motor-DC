@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+#root {
+  font-family: "Poppins", sans-serif;
+
+  color: #2a2a2a;
+  height: 100vh;
+  background-image: linear-gradient(to top right, #8ec5fc, #e0c3fc);
+}
+@media (max-width: 750px) {
+  .container {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  .header {
+    margin: 0 auto;
+    text-align: left;
+    width: 90%;
+    padding: 5px 15px;
+    height: 80px;
+    margin-bottom: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .header h1 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .header p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  .left {
+    float: left;
+    margin-top: 15px;
+  }
+  .right {
+    float: right;
+  }
+  .right img {
+    width: 70px;
+  }
+  .bag {
+    box-sizing: border-box;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .bag h2 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .bag1 {
+    margin: 0 auto;
+    padding: 20px 0 10px 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .bag1 .lamp {
+    margin: 10px auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+  }
+  .bag1 .in1 {
+    margin-right: 5%;
+  }
+  .bag1 .in2 {
+    margin-left: 5%;
+  }
+  .bag2 {
+    margin: 0 auto 10px auto;
+    padding: 20px 0 10px 0;
+    width: 90%;
+  }
+  #chart {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .volt {
+    margin-top: 50px;
+  }
+  .val {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .val .value {
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: 5px;
+  }
+  .val p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .lamp {
+    background-color: #eceff4;
+  }
+  .chart {
+    display: flex;
+    justify-content: center;
+  }
+  .value {
+    margin-top: -150px;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+  }
+  .rpm p {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 750px) {
+  .container {
+    max-width: 885px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .header {
+    text-align: left;
+    padding: 15px 50px;
+    height: 130px;
+    margin-bottom: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .header h1 {
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .header p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  .left {
+    float: left;
+    margin-top: 3px;
+  }
+  .right {
+    float: right;
+  }
+  .right img {
+    width: 100px;
+  }
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bag {
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 40px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .bag h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .bag1 {
+    width: 325px;
+    padding: 40px 0;
+    height: 540px;
+  }
+  .bag1 .lamp {
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+  }
+  .bag1 .in2 {
+    margin-top: 50px;
+  }
+  .bag2 {
+    width: 530px;
+    padding: 40px 0;
+    height: 540px;
+  }
+  #chart {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .volt {
+    margin-top: 50px;
+  }
+  .val {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 100px;
+  }
+  .val .value {
+    font-size: 70px;
+    font-weight: 500;
+    margin-right: 5px;
+  }
+  .val p {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .lamp {
+    background-color: #d9d9d9;
+  }
+  .chart {
+    display: flex;
+    justify-content: center;
+  }
+  .value {
+    margin-top: -150px;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+  }
+  .rpm p {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+.left .waktu {
+  display: flex;
+  align-items: center;
+}
